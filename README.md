@@ -3,6 +3,7 @@
 
 ## Sample Codes
 [Car Sample Code](https://github.com/Luffo-jpg/CS3/blob/main/q1/q1_mycar_arayat_veniegas.py)
+
 [Tusok Tusok Sample Code]()
 
 ## FA's
