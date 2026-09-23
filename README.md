@@ -4,14 +4,14 @@
 ## Sample Codes
 [Car Sample Code](https://github.com/Luffo-jpg/CS3/blob/main/q1/q1_mycar_arayat_veniegas.py)
 
-[Tusok Tusok Sample Code]()
+[Tusok Tusok Sample Code](https://github.com/Luffo-jpg/CS3/blob/main/q1/q1_tusok-tusok_arayat_veniegas.py)
 
 ## FA's
 [FA 1](https://github.com/Luffo-jpg/CS3/blob/main/q1/q1_sg2_a1.md)
 
 [FA 2](https://github.com/Luffo-jpg/CS3/blob/main/q1/q1_sg2_a3.py)
 
-FA 3 & 4 In KHub
+FA 3 & 4 In [KHub](https://khub.clc.pshs.edu.ph/)
 
 [FA 5](https://github.com/Luffo-jpg/CS3/blob/main/q1/q1_sg5_a1_arayat_veniegas.py)
 
