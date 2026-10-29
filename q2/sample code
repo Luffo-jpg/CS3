@@ -1,41 +1,51 @@
 class Patient:
-    __name = ""
-    __bill_amount = 0
-    
+    _name = ""
+    _bill_amount = 0.0
+
     def __init__(self, name, bill_amount):
         self._name = name
         self._bill_amount = bill_amount
+
     def get_name(self):
         return self._name
+
     def set_name(self, name):
         self._name = name
+
     def get_bill_amount(self):
         return self._bill_amount
-    def set_bill_amount(self,bill,amount):
+
+    def set_bill_amount(self, bill_amount):
         self._bill_amount = bill_amount
+
     def calculate_bill(self):
-        print(f"Original bill: ₱{self._bill_amount}")
-        print(f"Final bill: ₱{self._bill_amount}")
+        print("Original bill: P" + str(self._bill_amount))
+        print("Final Bill: P" + str(self._bill_amount))
+
     def display_patient_type(self):
         return "Regular Patient"
-    
+
+
 class SeniorPatient(Patient):
     def calculate_bill(self):
         self.finalBill = self._bill_amount * 0.8
-        print(f"Original bill: ₱{self._bill_amount}")
-        print(f"Final bill: ₱{self._bill_amount}")
+        print("Original bill: P" + str(self._bill_amount))
+        print("Final Bill: P" + str(self.finalBill))
+
     def display_patient_type(self):
         return "Senior Patient"
-        
+
+
 class PhilHealthPatient(Patient):
     pass
 
 
-patient = Patient("Juan Dela Cruz",15000)
-print("Patient Name:",patient.get_name())
-print("Patient Type:",patient.display_patient_type())
+patient = Patient("Juan Dela Cruz", 15000)
+print("Patient Name:", patient.get_name())
+print("Patient Type:", patient.display_patient_type())
 patient.calculate_bill()
 
-senior = SeniorPatient("Maria Santos",15000)
-print("Patient Name:",patient.get_name())
+senior = SeniorPatient("Maria Santos", 15000)
+print("Patient Name:", senior.get_name())
+print("Patient Type:", senior.display_patient_type())
 senior.calculate_bill()
